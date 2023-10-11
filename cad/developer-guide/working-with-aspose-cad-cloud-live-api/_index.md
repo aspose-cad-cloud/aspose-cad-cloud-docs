@@ -38,7 +38,7 @@ curl
 -H "Content-Type: multipart/form-data" 
 -H "Authorization: Bearer <jwt token>" 
 -H "Accept: application/json"
--d {"drawing":{}}
+-d @path/to/data.dxf https://aspose.com/file
 
 ```
 
@@ -111,7 +111,7 @@ curl
 -H "Content-Type: multipart/form-data" 
 -H "Authorization: Bearer <jwt token>" 
 -H "Accept: application/json"
--d {"drawing":{}}
+-d @path/to/data.dxf https://aspose.com/file
 
 ```
 
@@ -149,7 +149,7 @@ curl
 -H "Content-Type: multipart/form-data" 
 -H "Authorization: Bearer <jwt token>" 
 -H "Accept: application/json"
--d {"drawing":{}}
+-d @path/to/data.dxf https://aspose.com/file
 
 ```
 
@@ -187,7 +187,7 @@ curl
 -H "Content-Type: multipart/form-data" 
 -H "Authorization: Bearer <jwt token>" 
 -H "Accept: application/json"
--d {"drawing":{}}
+-d @path/to/data.dxf https://aspose.com/file
 
 ```
 

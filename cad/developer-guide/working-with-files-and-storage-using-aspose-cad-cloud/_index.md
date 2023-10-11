@@ -72,7 +72,7 @@ curl
 -H "Content-Type:application/octet-stream" 
 -H "Authorization: Bearer <jwt token>" 
 -H "Content-Type: multipart/form-data"
--d {"File":{}}
+-d @path/to/data.dxf https://aspose.com/file
 
 ```
 

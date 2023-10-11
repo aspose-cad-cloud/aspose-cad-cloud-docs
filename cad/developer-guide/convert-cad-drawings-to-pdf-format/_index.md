@@ -87,7 +87,7 @@ curl -v "https://api.aspose.cloud/v3.0/cad/saveAs/pdf" \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
--d {"drawingData":{}}
+-d @path/to/data.dxf https://aspose.com/file
 -o 910609.pdf
 
 ```
